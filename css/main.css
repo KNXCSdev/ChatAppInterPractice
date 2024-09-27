@@ -68,6 +68,25 @@ body::before {
 
 .left {
   flex-basis: 50%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 100%;
+}
+.left-phone {
+  height: 60%;
+  width: 37%;
+  padding: 1rem;
+  background-color: var(--white);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.233);
+  border-radius: 30px;
+  margin-bottom: 10rem;
+}
+.left-phone-main {
+  background-color: var(--lightgrayishviolet);
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
 }
 
 .right {
