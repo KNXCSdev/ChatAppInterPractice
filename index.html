@@ -13,15 +13,61 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/main.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <title>Phone</title>
   </head>
   <body>
     <main class="main">
       <div class="left">
         <div class="left-phone">
-          <div class="left-phone-main"></div>
+          <div class="left-phone-main">
+            <div class="left-phone-main-user">
+              <span><</span>
+              <img src="images/avatar.jpg" alt="" class="left-phone-main-user-img" />
+              <div class="left-phone-main-name">
+                <h2 class="secondary-heading">Samuel Green</h2>
+                <p class="left-phone-main-user-description">Avaiable to Walk</p>
+              </div>
+              <ion-icon
+                name="ellipsis-vertical-outline"
+                class="left-phone-main-user-icon"
+              ></ion-icon>
+            </div>
+            <div class="messages">
+              <div class="messages-text">That sounds great.I`d be happy with that.</div>
+              <div class="messages-text">Could you send over some pictures of your dog,please?</div>
+              <div class="messages-img">
+                <img src="images/dog-image-1.jpg" alt="dog-image1" class="messages-imgg" />
+                <img src="images/dog-image-2.jpg" alt="dog-image2" class="messages-imgg" />
+                <img src="images/dog-image-3.jpg" alt="dog-image3" class="messages-imgg" />
+              </div>
+              <div class="messages-owntext1">Here are a few pictures.She`s a happy girl!</div>
+              <div class="messages-owntext2">Can you make it?</div>
+              <div class="messages-text">
+                She looks so happy!The time w e discussed works.How long shall i take her out for?
+              </div>
+              <div class="messages-choice">
+                <ion-icon name="radio-button-off-outline"></ion-icon>
+                <p>30 minute walk</p>
+                <span>$29</span>
+              </div>
+              <div class="messages-choice">
+                <ion-icon name="radio-button-off-outline"></ion-icon>
+                <p>1 hour walk</p>
+                <span>$49</span>
+              </div>
+              <div class="type">
+                <input type="text" placeholder="Type a message" class="input" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
       <div class="right">
         <h1 class="primary-heading">Simple booking</h1>
         <p class="right-description">
