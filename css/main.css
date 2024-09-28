@@ -42,15 +42,13 @@ body::after {
   background-image: linear-gradient(var(--lightmagenta), var(--lightviolet));
   left: 0;
   top: 0;
-  border-bottom-right-radius: 46%;
-  border-bottom-left-radius: 46%;
+  clip-path: circle(70.4% at 38% 32%);
 }
 body::before {
   background-image: linear-gradient(var(--lightgrayishviolet), var(--lightgrayishviolet));
   right: 0;
   bottom: 0;
-  border-top-right-radius: 46%;
-  border-top-left-radius: 46%;
+  clip-path: circle(64.5% at 59% 61%);
 }
 
 .primary-heading {
@@ -75,12 +73,13 @@ body::before {
 }
 .left-phone {
   height: 60%;
-  width: 37%;
+  width: 35%;
   padding: 1rem;
   background-color: var(--white);
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.233);
   border-radius: 30px;
   margin-bottom: 10rem;
+  margin-right: 10rem;
 }
 .left-phone-main {
   background-color: var(--lightgrayishviolet);
@@ -95,6 +94,6 @@ body::before {
 }
 .right-description {
   line-height: 1.6;
-  width: 70%;
+  width: 50%;
   color: var(--darkgrayv);
 }
